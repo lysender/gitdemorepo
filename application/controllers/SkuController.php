@@ -8,5 +8,6 @@ class SkuController extends Zend_Controller_Action {
         $this->view->description = "This is the description";
 
         $this->view->product = array(1);
+        $this->view->isCool = false;
     }
 }
